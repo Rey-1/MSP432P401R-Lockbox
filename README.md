@@ -1,5 +1,5 @@
 # Rey-1-MSP432P401R-Lockbox
-C Program running on an MSP432P401R ARM-based microcontroller
+
 
 The goal of the project was to be able to take user input in the form of a keypad connected to the MSP432P401R microcontroller to activate a solenoid-based lockbox.
 The user can set a pin to activate a solenoid to the locked position and later type that same pin to move the solenoid to the open position. While the main purpose of the program is to manipulate a solenoid to lock as well as unlock a box, the code goes a step further. Right after typing in a pin, the user will see a blinking light, and during the time the light is blinking, the user can press any button on the keypad to override the pin and set the lockbox to the always open position once again. If nothing is pressed, 
