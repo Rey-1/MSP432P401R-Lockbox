@@ -1,4 +1,4 @@
-# Rey-1-MSP432P401R-Lock-Box
+# Rey-1-MSP432P401R-Lockbox
 C Program running on an MSP432P401R ARM-based microcontroller
 
 The goal of the project was to be able to take user input in the form of a keypad connected to the MSP432P401R microcontroller to activate a solenoid-based lockbox.
