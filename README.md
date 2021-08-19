@@ -7,3 +7,6 @@ the solenoid is activated, and the box is now locked. When trying to unlock the 
 unlock the box. If the pin is incorrect, the user gets a total of five tries before the keypad becomes inoperable for one minute before they can try again. Once the lockbox is
 opened after being locked, a new pin can be set and the process starts again. All user input is displayed on a seven segment display connected to the MSP432P401R microcontroller via a multiplexer to reduce the amount of physical connections. Since the seven segment display is connected via a multiplexer, only one of the LEDs on the display is on at once, 
 so it was necessary to find a way for the human eye to recognize all segments of the display as ON without noticeable flickering or ghosting.
+
+DEMO:
+https://www.youtube.com/watch?v=zqjpy5bm3PQ&ab_channel=ReyRodriguez
